@@ -2,11 +2,20 @@ body {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: lightgray;
+  text-align: center;
+  background-image: linear-gradient(black, white);
+  color: aliceblue;
 }
 
 button {
   cursor: pointer;
   margin: 5px;
+}
+header h1 {
+  background-image: linear-gradient(rgb(95, 2, 2), rgb(77, 76, 76));
+  text-shadow: 0 3px 3px rgb(95, 2, 2);
+  text-align: center;
+  color: aliceblue;
 }
 
 .numbers {
@@ -16,6 +25,8 @@ button {
   font-family: monospace;
   font-size: 20px;
   text-align: center;
+  text-shadow: 0 3px 3px rgb(95, 2, 2);
+  box-shadow: 0 3px 5px black;
 }
 
 .number {
@@ -27,6 +38,18 @@ button {
   padding: 5px;
   user-select: none;
   cursor: pointer;
+  box-shadow: 0 3px 5px black;
+}
+button {
+  background-color: rgb(108, 108, 108);
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  color: aliceblue;
+}
+#megasena-saved-games li {
+  color: black;
+  list-style: none;
 }
 
 .selected-number {
